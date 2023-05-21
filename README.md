@@ -10,11 +10,9 @@ conda install numpy=1.19.2
 conda install pandas=1.2.4
 conda install -c numba numba=0.53.1
 conda install -c bioconda cd-hit=4.8.1
-conda install -c pytorch pytorch=1.4.0 torchvision=0.5.0
-conda install -c ostrokach-forge torch-scatter==1.4.0
-conda install -c ostrokach-forge torch-sparse==0.4.3
-conda install -c ostrokach-forge torch-cluster==1.4.5
-conda install -c ostrokach-forge torch-spline-conv==1.1.1
+conda install -c pytorch pytorch=1.4.0 cudatoolkit=10.1
+pip install torchvision==0.5.0
+conda install -c ostrokach-forge torch-scatter=1.4.0 torch-sparse=0.4.3 torch-cluster=1.4.5 torch-spline-conv=1.1.1
 pip install torch-geometric==1.3.2
 ```
 Now you should have an environment where PIONEER can be run smoothly.
