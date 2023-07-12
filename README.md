@@ -5,7 +5,7 @@ PIONEER is a deep learning-based framework that predicts protein interfaces usin
 After cloning the repository, there is a quick way to install an environment for PIONEER. Please just run the following command lines (If the environment is installed without any errors, you can just go to Step 2):
 ```
 conda create -n pioneer python=3.8.1
-source activate pioneer
+conda activate pioneer
 conda install numpy=1.19.2
 conda install pandas=1.2.4
 conda install -c numba numba=0.53.1
